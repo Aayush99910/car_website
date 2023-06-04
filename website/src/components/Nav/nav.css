@@ -1,0 +1,22 @@
+.header, 
+.navigation-container {
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.logo-container {
+  width: 10%;
+}
+
+.navigation-container {
+  width: 35%;
+  justify-content: space-around;
+}
+
+.language-preference-container {
+  width: 10%;
+}
