@@ -12,11 +12,53 @@
 }
 
 .photo-container {
-  width: 200px;
+  width: 330px;
   margin-right: 20px;
+  padding: 10px;
 }
 
 .photo-container img {
   width: 100%;
   object-fit: fill;
+}
+
+.details-container {
+  display: flex;
+  background-color: rgb(250, 250, 250);
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+.model {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+}
+
+.price {
+  color: green;
+  padding: 1px;
+}
+
+.body-type,
+.type,
+.miles {
+  display: flex;
+  align-items: center;
+}
+
+.name-price-contatiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  height: 30px;
+  border-bottom: 1px solid black;
+}
+
+.miles-type-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
 }
